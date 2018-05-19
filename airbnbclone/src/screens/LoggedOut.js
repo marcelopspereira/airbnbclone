@@ -31,7 +31,7 @@ export default class LoggedOut extends Component {
             textColor={colors.green01}
             background={colors.white}
             icon={<Icon name="facebook" size={20} style={styles.facebookButtonIcon}/> }
-            handleOnPress={this.onFacebookOnPress}
+            handleOnPress={this.onFacebookPress}
           />
           
            <RoundedButton 
@@ -61,10 +61,9 @@ export default class LoggedOut extends Component {
             </TouchableHighlight>            
             <Text style={styles.termsText}>, and</Text>
             <TouchableHighlight style={styles.linkButton}>
-              <Text style={styles.termsText}>Nondiscrimition Policy.</Text>              
+              <Text style={styles.termsText}>Nondiscrimition Policy</Text>              
             </TouchableHighlight>
-            <Text style={styles.termsText}>.</Text>
-            
+            <Text style={styles.termsText}>.</Text>            
           </View>
         </View>
       </View>

@@ -26,7 +26,7 @@ RoundedButton.propTypes ={
     textColor:PropTypes.string,
     background:PropTypes.string,
     icon:PropTypes.object,
-    handlerOnPress:PropTypes.func.isRequired,
+    handleOnPress:PropTypes.func.isRequired,
 };
 
 const styles = StyleSheet.create({
@@ -36,6 +36,8 @@ const styles = StyleSheet.create({
         borderRadius:40,
         borderWidth:1,
         borderColor:color.write,
+        marginBottom: 15,
+        alignItems: 'center',
     },
     buttonTextWrapper:{
         flexDirection:'row',
